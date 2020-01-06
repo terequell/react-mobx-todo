@@ -1,4 +1,11 @@
-Тесты cypress в /cypress/integration/examples/todolist.spec.js
+Это - Todo list, управление стейтом MobX. 
+Умеет:
+  1. Добавлять задания
+  2. Удалять задания
+  3. Редактировать задания
+  4. Сохраняет задания в локал стейте, т.е при обновлении страницы список не сбросится.
+
+Написал кое-как тесты cypress, лежат в /cypress/integration/examples/todolist.spec.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
