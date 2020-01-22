@@ -1,6 +1,6 @@
 Развёрнуто: https://terequell.github.io/react-mobx-todo
 
-Это - Todo list, управление стейтом MobX. 
+Это - Todo list, управление стейтом MobX. Сделано в качестве тестового задания. 
 Умеет:
   1. Добавлять задания (кнопка Add task или нажатие Enter)
   2. Удалять задания (кнопка delete task)
