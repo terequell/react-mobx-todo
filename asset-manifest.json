@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-mobx-todo/static/css/main.098ebfcc.chunk.css",
-    "main.js": "/react-mobx-todo/static/js/main.ce1f2aba.chunk.js",
-    "main.js.map": "/react-mobx-todo/static/js/main.ce1f2aba.chunk.js.map",
-    "runtime-main.js": "/react-mobx-todo/static/js/runtime-main.0e76849d.js",
-    "runtime-main.js.map": "/react-mobx-todo/static/js/runtime-main.0e76849d.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/react-mobx-todo/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.d42ea56b.chunk.js": "/react-mobx-todo/static/js/2.d42ea56b.chunk.js",
-    "static/js/2.d42ea56b.chunk.js.map": "/react-mobx-todo/static/js/2.d42ea56b.chunk.js.map",
+    "main.js": "/react-mobx-todo/static/js/main.c9421c6f.chunk.js",
+    "main.js.map": "/react-mobx-todo/static/js/main.c9421c6f.chunk.js.map",
+    "runtime-main.js": "/react-mobx-todo/static/js/runtime-main.3c23ed2c.js",
+    "runtime-main.js.map": "/react-mobx-todo/static/js/runtime-main.3c23ed2c.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/react-mobx-todo/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.2857a2c2.chunk.js": "/react-mobx-todo/static/js/2.2857a2c2.chunk.js",
+    "static/js/2.2857a2c2.chunk.js.map": "/react-mobx-todo/static/js/2.2857a2c2.chunk.js.map",
     "index.html": "/react-mobx-todo/index.html",
-    "precache-manifest.cd3a1cbfbd21d32bd258561335384a7c.js": "/react-mobx-todo/precache-manifest.cd3a1cbfbd21d32bd258561335384a7c.js",
+    "precache-manifest.522f4953a4e216238728654fb3345edd.js": "/react-mobx-todo/precache-manifest.522f4953a4e216238728654fb3345edd.js",
     "service-worker.js": "/react-mobx-todo/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/react-mobx-todo/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/2.47e06e2e.chunk.css.map": "/react-mobx-todo/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.098ebfcc.chunk.css.map": "/react-mobx-todo/static/css/main.098ebfcc.chunk.css.map",
-    "static/js/2.d42ea56b.chunk.js.LICENSE": "/react-mobx-todo/static/js/2.d42ea56b.chunk.js.LICENSE"
+    "static/js/2.2857a2c2.chunk.js.LICENSE": "/react-mobx-todo/static/js/2.2857a2c2.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e76849d.js",
-    "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.d42ea56b.chunk.js",
+    "static/js/runtime-main.3c23ed2c.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.2857a2c2.chunk.js",
     "static/css/main.098ebfcc.chunk.css",
-    "static/js/main.ce1f2aba.chunk.js"
+    "static/js/main.c9421c6f.chunk.js"
   ]
 }
