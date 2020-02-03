@@ -1,11 +1,13 @@
-Это - Todo list, управление стейтом MobX. 
-Умеет:
-  1. Добавлять задания
-  2. Удалять задания
-  3. Редактировать задания
-  4. Сохраняет задания в локал стейте, т.е при обновлении страницы список не сбросится.
+Развёрнуто: https://terequell.github.io/react-mobx-todo
 
-Написал кое-как тесты cypress, лежат в /cypress/integration/examples/todolist.spec.js
+Это - Todo list, управление стейтом MobX. Сделано в качестве тестового задания. 
+Умеет:
+  1. Добавлять задания (кнопка Add task или нажатие Enter)
+  2. Удалять задания (кнопка delete task)
+  3. Редактировать задания (по нажатию на текст задания появляется поле редактирования)
+  4. Сохранять задания в local store, т.е всё сохраняется при обновлении страницы
+
+Попробовал написать тесты cypress, лежат в /cypress/integration/examples/todolist.spec.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
