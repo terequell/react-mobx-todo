@@ -5,6 +5,9 @@ import * as serviceWorker from './serviceWorker';
 import {observable, action} from 'mobx';
 import {observer} from 'mobx-react'
 import styles from './index.module.css'
+import { Button, Form, ListGroup } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { FormControl } from 'react-bootstrap';
 
 // Класс состояния и обработчиков
 
@@ -67,9 +70,9 @@ const Task  = observer((props) => {
    return (
          <div>
             {isEdit ?
-               <input className = 'edit-task-true' autoFocus = {true} onBlur = {() => setEditmode(false)} onChange = {editTask} value = {props.text}></input> 
-               : <li className = 'edit-task-false' onClick = {() => setEditmode(true)}>{props.text}</li>}
-            <button className = 'delete-task' onClick = {() => deleteTask(props.id)}>Delete a task</button>
+               <FormControl className = 'edit-task-true' autoFocus = {true} onBlur = {() => setEditmode(false)} onChange = {editTask} value = {props.text}></FormControl> 
+               : <li className = {styles.edit_task_false} onClick = {() => setEditmode(true)}>{props.text}</li>}
+            <Button size = "sm" variant = "dark" onClick = {() => deleteTask(props.id)}>Delete a task</Button>
          </div>
    )
 }
@@ -99,14 +102,14 @@ const Task  = observer((props) => {
       const store = this.props.store
       return(
          <div className = {styles.todolist}>
-            <h2>ToDo APP:</h2>
-            <form>
-               <input className = 'main-input' autoFocus = {true} placeholder = {'Write your task here'} onChange = {this.updateInput} value = {store.state.currentTaskInput}></input>
-               <button onClick = {this.addTask} className = {'add-task'}>Add task</button>
-            </form>
-            <ul className = 'main-tasks_list'>
-               {store.state.tasksList.map(task => <Task key = {task.id} id = {task.id} text = {task.text} state = {this.props.store}/>)}
-            </ul>
+            <h2>ToDo APP</h2>
+            <Form inline>
+               <FormControl type="text" autoFocus = {true} placeholder="Type your task here" onChange = {this.updateInput} value = {store.state.currentTaskInput} className="mr-sm-2" />
+               <Button variant="outline-success" onClick = {this.addTask}>Add new task</Button>
+            </Form>
+            <ListGroup className = {styles.maintasks_list} variant = "flush">
+               {store.state.tasksList.map(task => <ListGroup.Item> <Task key = {task.id} id = {task.id} text = {task.text} state = {this.props.store}/> </ListGroup.Item>)}
+            </ListGroup>
          </div>
       )
    }
