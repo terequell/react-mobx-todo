@@ -63,6 +63,7 @@ const Task  = observer((props) => {
    }
 
    const editTask = (e) => {
+      e.preventDefault()
       let text = e.target.value
       props.state.editTask(props.id, text)
    }
